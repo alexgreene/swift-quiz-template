@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA00AC7A1D205F0C0093FD24 /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA00AC791D205F0C0093FD24 /* shuffle.wav */; };
+		FA3F0AE51D2E07B6005A092A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3F0AE41D2E07B6005A092A /* logo.png */; };
+		FA65DA891D173DBF0000DD0A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65DA881D173DBF0000DD0A /* Question.swift */; };
+		FA65DA8B1D173F0B0000DD0A /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65DA8A1D173F0B0000DD0A /* QuestionBank.swift */; };
 		FAFA04E01D06BAA000099A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04DF1D06BAA000099A24 /* AppDelegate.swift */; };
-		FAFA04E21D06BAA000099A24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04E11D06BAA000099A24 /* ViewController.swift */; };
 		FAFA04E51D06BAA000099A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04E31D06BAA000099A24 /* Main.storyboard */; };
 		FAFA04E81D06BAA000099A24 /* AreYerAWizard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04E61D06BAA000099A24 /* AreYerAWizard.xcdatamodeld */; };
 		FAFA04EA1D06BAA000099A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04E91D06BAA000099A24 /* Assets.xcassets */; };
 		FAFA04ED1D06BAA000099A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04EB1D06BAA000099A24 /* LaunchScreen.storyboard */; };
+		FAFA04F51D06BD1E00099A24 /* SoundOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04F41D06BD1E00099A24 /* SoundOptionsViewController.swift */; };
+		FAFA04F71D06CA6D00099A24 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04F61D06CA6D00099A24 /* QuestionViewController.swift */; };
+		FAFA04F91D0776FA00099A24 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04F81D0776FA00099A24 /* IntroViewController.swift */; };
+		FAFA04FD1D077A0700099A24 /* IntroContent1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA04FC1D077A0700099A24 /* IntroContent1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA00AC791D205F0C0093FD24 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
+		FA3F0AE41D2E07B6005A092A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FA65DA881D173DBF0000DD0A /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FA65DA8A1D173F0B0000DD0A /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		FAFA04DC1D06BAA000099A24 /* AreYerAWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreYerAWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA04DF1D06BAA000099A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAFA04E11D06BAA000099A24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAFA04E41D06BAA000099A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFA04E71D06BAA000099A24 /* AreYerAWizard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AreYerAWizard.xcdatamodel; sourceTree = "<group>"; };
 		FAFA04E91D06BAA000099A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFA04EC1D06BAA000099A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFA04EE1D06BAA000099A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA04F41D06BD1E00099A24 /* SoundOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundOptionsViewController.swift; sourceTree = "<group>"; };
+		FAFA04F61D06CA6D00099A24 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		FAFA04F81D0776FA00099A24 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		FAFA04FC1D077A0700099A24 /* IntroContent1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroContent1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		FAFA04DE1D06BAA000099A24 /* AreYerAWizard */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA04DF1D06BAA000099A24 /* AppDelegate.swift */,
-				FAFA04E11D06BAA000099A24 /* ViewController.swift */,
+				FA3F0AE41D2E07B6005A092A /* logo.png */,
+				FA00AC791D205F0C0093FD24 /* shuffle.wav */,
 				FAFA04E31D06BAA000099A24 /* Main.storyboard */,
-				FAFA04E91D06BAA000099A24 /* Assets.xcassets */,
+				FAFA04DF1D06BAA000099A24 /* AppDelegate.swift */,
+				FAFA04F41D06BD1E00099A24 /* SoundOptionsViewController.swift */,
+				FAFA04F61D06CA6D00099A24 /* QuestionViewController.swift */,
+				FAFA04F81D0776FA00099A24 /* IntroViewController.swift */,
 				FAFA04EB1D06BAA000099A24 /* LaunchScreen.storyboard */,
+				FA65DA881D173DBF0000DD0A /* Question.swift */,
+				FA65DA8A1D173F0B0000DD0A /* QuestionBank.swift */,
+				FAFA04E91D06BAA000099A24 /* Assets.xcassets */,
 				FAFA04EE1D06BAA000099A24 /* Info.plist */,
 				FAFA04E61D06BAA000099A24 /* AreYerAWizard.xcdatamodeld */,
+				FAFA04FC1D077A0700099A24 /* IntroContent1ViewController.swift */,
 			);
 			path = AreYerAWizard;
 			sourceTree = "<group>";
@@ -99,6 +120,7 @@
 				TargetAttributes = {
 					FAFA04DB1D06BAA000099A24 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -125,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA00AC7A1D205F0C0093FD24 /* shuffle.wav in Resources */,
+				FA3F0AE51D2E07B6005A092A /* logo.png in Resources */,
 				FAFA04ED1D06BAA000099A24 /* LaunchScreen.storyboard in Resources */,
 				FAFA04EA1D06BAA000099A24 /* Assets.xcassets in Resources */,
 				FAFA04E51D06BAA000099A24 /* Main.storyboard in Resources */,
@@ -138,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA04E21D06BAA000099A24 /* ViewController.swift in Sources */,
+				FAFA04FD1D077A0700099A24 /* IntroContent1ViewController.swift in Sources */,
+				FA65DA8B1D173F0B0000DD0A /* QuestionBank.swift in Sources */,
+				FAFA04F71D06CA6D00099A24 /* QuestionViewController.swift in Sources */,
 				FAFA04E81D06BAA000099A24 /* AreYerAWizard.xcdatamodeld in Sources */,
+				FAFA04F91D0776FA00099A24 /* IntroViewController.swift in Sources */,
+				FAFA04F51D06BD1E00099A24 /* SoundOptionsViewController.swift in Sources */,
+				FA65DA891D173DBF0000DD0A /* Question.swift in Sources */,
 				FAFA04E01D06BAA000099A24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,22 +283,24 @@
 		FAFA04F21D06BAA000099A24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = AreYerAWizard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexGreene.AreYerAWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FAFA04F31D06BAA000099A24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = AreYerAWizard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexGreene.AreYerAWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -292,6 +323,7 @@
 				FAFA04F31D06BAA000099A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
